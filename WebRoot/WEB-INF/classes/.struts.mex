@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="0,0" size="0,0">
+    <action name="login" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="homePage.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="Login.jsp" />
+      </result>
+    </action>
+    <action name="show" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="homePage.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="save" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="homePage.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="deleteClient" location="0,0" size="0,0">
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="searQianding" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="homePage.jsp" />
+      </result>
+    </action>
+    <action name="sinall" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="homePage.jsp" />
+      </result>
+    </action>
+    <action name="up" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="previewExcel.jsp" />
+      </result>
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="error.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="preView" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="homePage.jsp" />
+      </result>
+    </action>
+    <action name="passCheck" location="0,0" size="0,0" />
+    <action name="orderByOldTime" location="0,0" size="0,0" />
+  </package>
+  <webResource name="error.jsp" path="error.jsp" location="0,0" size="0,0" />
+  <webResource name="homePage.jsp" path="homePage.jsp" location="0,0" size="0,0" />
+  <webResource name="Login.jsp" path="Login.jsp" location="0,0" size="0,0" />
+  <webResource name="tbl3.html" path="tbl3.html" location="0,0" size="0,0" />
+  <webResource name="previewExcel.jsp" path="previewExcel.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

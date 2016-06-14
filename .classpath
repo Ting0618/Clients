@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SSH"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jxl.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/poi-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/poi-examples-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/poi-excelant-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/poi-ooxml-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/poi-ooxml-schemas-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/poi-scratchpad-3.11-20141221.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
